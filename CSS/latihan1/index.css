@@ -1,0 +1,41 @@
+h3 {
+    color: green;
+}
+
+body {
+    background-color: aqua;
+    background-image: url("../background/bg.jpg");
+
+    /* sublepattern.com => tempat bg img bagus */
+    /* background-repeat: no-repeat;  */
+    /* background-position: right center; */
+    /*format 1 baris = backround : warna url posisi repeat/no-repeat */
+}
+
+/* 
+class pakai . (titik)
+id pakai # (pagar) 
+usahakan pakai class
+*/
+
+.div1 p {
+    color: orange;
+    cursor: pointer;
+}
+
+.div1 p {
+    color: red;
+}
+
+h1 { 
+    color: red;
+}
+
+.p1:hover {
+    color: blue;
+}
+
+.p1:active {
+    color: green;
+}
+
