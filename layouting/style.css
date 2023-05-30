@@ -59,6 +59,19 @@ body {
 	width:  800px;
 	margin: auto ;
 	background-color: white; 
+	height: 100vh ;
+}
+ .content2 {
+	width:  800px;
+	margin: auto ;
+	background-color: seashell; 
+	height: 50vh ;
+}
+ .content3 {
+	width:  800px;
+	margin: auto ;
+	background-color: skyblue; 
+	height: 80vh ;
 }
 
 .header {
@@ -91,4 +104,8 @@ body {
 .hero {
 	height: 300px;
 	background-color: aqua;
+}
+
+.content h4 {
+	padding-left: 5px;
 }

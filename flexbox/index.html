@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox CSS</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--
+          Flexbox hanya bisa mengatur 1 dimensi, kalau grid bisa 2.
+
+          Flexbox adalah Sebuah module yang menawarkan cara yang efektif
+          untuk Menyusun, mensejajarkan, dan menstribusikan jarak antar item
+          didalam sebuah kontainer, meskipun ukuran nya dinamis bahkan kita tidak tau.
+
+          Di Flexbox ada kontainer atau pembungkus(parent) dan items(child)
+
+          main Axis => dari kanan ke kiri
+          cross Axis => dari atas kebawah
+
+          ukuran dari parent (lebar) => kiri ke kanan => main size
+          ukuran dari kolom (panjang) => atas ke bawah => cross size
+
+          Horizontal => kiri ke kanan
+          awal dari element/parent/kontainer = main start 
+          akhir dari element/parent/kontainer = main end
+
+          Vertikal => atas ke bawah
+          awal dari element/parent/kontainer = cross start 
+          akhir dari element/parent/kontainer = cross end
+
+
+          Properti pada kontainer(pembungkus)
+
+          1. display (flex, block, inline, inline-block) => membuat element parent menjadi flexbox
+             dan membuat element didalam nya bisa berprilaku flex juga.
+        
+          2. flex-direction => bentuk atau urutan item
+             (row, row-reverse, column, column-reverse)
+
+          3. flex-wrap => supaya ketika items nya lebih, maka turun kebawah
+             (nowrap, wrap, wrap-reverse)
+          
+          3. justify-content => mengatur posisi items kiri-kanan
+             (flex-start, flex-end, center(tengah), stretch(penuh), baseline(huruf-sejajar))
+
+          4. align-content  => mengatur posisi items atas-bawah 
+             (flex-start, flex-end, center, stretch, space-between, space-around)
+
+          Properti pada items (element didalam pembungkus)
+
+          1. order => mengatur urutan items {order : 1}
+
+          2. flex-grow => mengatur ukuran item {flex-grow : 2} || {flex : 2}
+
+          3. align-self => mengatur item itu sendiri (auto, flex-start, flex-end, center, baseline, stretch)
+    -->
+
+    <!-- Latihan 1 - Kolom -->
+    <div class="container-satu">
+      <div class="sidebar-kiri">
+        <h3>Belajar Flexbox</h3>
+        <ul>
+          <li><a href="">Link 1</a></li>
+          <li><a href="">Link 2</a></li>
+          <li><a href="">Link 3</a></li>
+          <li><a href="">Link 4</a></li>
+          <li><a href="">Link 5</a></li>
+        </ul>
+      </div>
+      <div class="beranda">
+        <h3>Artikel</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam in,
+          incidunt ea quod sed eius necessitatibus quasi eveniet dolorum et?
+          Impedit eum, mollitia reprehenderit sed debitis ipsam. Illo eaque
+          provident maiores reprehenderit perferendis eos reiciendis?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga,
+          beatae accusamus corporis quia aut optio illo magni ut temporibus odio
+          veritatis rerum ex est, dolorum hic unde aspernatur voluptatibus, eius
+          doloribus? Tenetur accusantium facere aliquam aliquid maxime corrupti
+          tempora?
+        </p>
+      </div>
+      <div class="sidebar-kanan">
+        <p>Iklan</p>
+      </div>
+    </div>
+
+    <!-- Latihan 2 -->
+
+    <div class="container-dua">
+      <div class="layanan satu">
+        <h4>Layanan Satu</h4>
+      </div>
+
+      <div class="layanan dua">
+        <h4>Layanan Dua</h4>
+      </div>
+
+      <div class="layanan tiga">
+        <h4>Layanan Tiga</h4>
+      </div>
+    </div>
+  </body>
+</html>
