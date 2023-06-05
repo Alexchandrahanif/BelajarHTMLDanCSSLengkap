@@ -1,0 +1,61 @@
+html, body {
+    padding:  0;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+/* .content {
+    border: 3px solid  red;
+} */
+
+header {
+    background-color: rgb(20, 57, 136);
+    padding: 40px 0;
+} 
+
+.sidebar {
+    float: left;
+    width: 40%;
+}
+
+.sidebar aside {
+    background-color: aquamarine;
+    padding: 60px 0;
+}
+
+.sidebar nav {
+    background-color: coral;
+    padding: 102px 0;  
+}
+
+main {
+    background-color: brown;
+    padding: 171.5px ;
+    float: right;
+    box-sizing: border-box;
+    width: 60%;
+}
+
+
+.content::after {
+content: '';
+display: block;
+clear: both;
+}
+
+
+
+
+footer {
+    background-color: cadetblue;
+    padding: 20px 0;
+}
