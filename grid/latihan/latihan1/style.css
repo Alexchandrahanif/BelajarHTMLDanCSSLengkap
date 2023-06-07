@@ -9,8 +9,6 @@ html, body {
     width: 60%;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 100px 300px 100px;
 }
 
 .item {
