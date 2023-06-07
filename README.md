@@ -12,39 +12,39 @@
 ##### Detail Materi CSS
 
 ```json
-> Css Dasar
-> Css Layouting
-> Css 3
-> Css Sass
-> Css Unit
+- Css Dasar
+- Css Layouting
+- Css 3
+- Css Sass
+- Css Unit
 ```
 
 ##### Detail Materi HTML
 
 ```json
->
->
->
->
->
+-
+-
+-
+-
+-
 ```
 
 ##### Detail Materi FLexbox
 
 ```json
->
->
->
->
->
+-
+-
+-
+-
+-
 ```
 
 ##### Detail Materi Grid
 
 ```json
->
->
->
->
->
+-
+-
+-
+-
+-
 ```
