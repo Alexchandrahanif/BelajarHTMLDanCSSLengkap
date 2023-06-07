@@ -1,18 +1,12 @@
 ## Belajar Grid System
 
-# 1
+#### Latihan 1 =>
 
-## 2
+#### Latihan 2 =>
 
-### 3
+#### Latihan 3 =>
 
-# Latihan 1 =>
-
-# Latihan 2 =>
-
-# Latihan 3 =>
-
-# Latihan 4 =>
+#### Latihan 4 =>
 
    <!--
         CSS Grid Terminology
