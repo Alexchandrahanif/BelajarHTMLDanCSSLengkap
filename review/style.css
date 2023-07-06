@@ -1,0 +1,189 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.container {
+  padding: 10px;
+  border: 1px;
+  border-color: black;
+  background: bisque;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 100px;
+  background: #fbd85d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  padding: 10px;
+  width: 40%;
+  height: 60px;
+  background: #7895cb;
+  border-radius: 10px;
+}
+
+.link {
+  padding: 10px;
+  width: 40%;
+  height: 60px;
+  border-radius: 10px;
+  background: #45cfdd;
+}
+
+.content {
+  padding: 10px;
+  width: calc(100% - 20px);
+  min-height: 500px;
+  background: #a1c2f1;
+}
+
+.task1-overflow {
+  width: calc(100% - 10px);
+  background: #ff90bb;
+  overflow-x: scroll;
+  border-radius: 10px;
+}
+
+.task1-flex {
+  width: fit-content;
+  display: flex;
+  padding: 10px;
+  height: 110px;
+}
+
+.satu {
+  width: 100px;
+  height: 100px;
+  background: #e1ecc8;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.task2 {
+  border-radius: 10px;
+  margin-top: 10px;
+  width: calc(100% - 30px);
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  background: #f9e0bb;
+  padding: 10px;
+}
+
+.task2-kiri {
+  border-radius: 10px;
+  height: calc(100% - 10px);
+  width: 25%;
+  background: #99627a;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task2-kanan {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: calc(100% - 20px);
+  width: 70%;
+  background: #99627a;
+}
+
+.dua {
+  height: 30px;
+  width: 90%;
+  margin: 5px;
+  background: #dbdfaa;
+  border-radius: 10px;
+}
+
+.task2-overflow {
+  border-radius: 10px;
+  width: calc(100% - 10px);
+  background: #f9fbe7;
+  overflow-y: scroll;
+}
+
+.task2-flex : {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tiga {
+  margin: 20px;
+  background: #e1d4bb;
+  width: 95%;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.berita {
+  padding: 10px;
+  width: calc(100% - 20px);
+  min-height: 300px;
+  background: #84a7a1;
+}
+
+.berita-wrap {
+  width: calc(100% - 30px);
+  padding: 10px;
+  background: #a0c49d;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.empat {
+  border-radius: 10px;
+  width: 30%;
+  margin: 10px;
+  height: 70px;
+  background: #c4d7b2;
+}
+
+// RESPONSIVE
+@media (min-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .task2-kiri {
+    display: none;
+  }
+
+  .tiga {
+    width: 90%;
+  }
+
+  .task2-kanan {
+    width: 90%;
+  }
+
+  .link {
+    margin: 5px;
+  }
+
+  .logo {
+    margin: 5px;
+  }
+}
